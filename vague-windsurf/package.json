@@ -31,7 +31,6 @@
     "pastel",
     "windsurf"
   ],
-  "icon": "assets/icon.png",
   "contributes": {
     "themes": [
       {
