@@ -1,0 +1,45 @@
+{
+  "name": "vague-windsurf",
+  "displayName": "Vague Theme",
+  "description": "A cool, dark, low contrast colorscheme for Windsurf. Pastel yet vivid, like a fleeting memory...",
+  "version": "1.0.0",
+  "publisher": "vague-theme",
+  "author": {
+    "name": "Vague Theme",
+    "url": "https://github.com/vague-theme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vague-theme/vague-windsurf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vague-theme/vague-windsurf/issues"
+  },
+  "homepage": "https://github.com/vague-theme/vague-windsurf",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "vague",
+    "low contrast",
+    "pastel",
+    "windsurf"
+  ],
+  "icon": "assets/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vague",
+        "uiTheme": "vs-dark",
+        "path": "themes/vague-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
