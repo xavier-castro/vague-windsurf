@@ -2,11 +2,14 @@
 
 ![Vague Theme Preview](assets/preview.png)
 
-A cool, dark, low contrast colorscheme for Windsurf. Pastel yet vivid, like a fleeting memory...
+A cool pair of low-contrast color themes for Windsurf. Pastel yet vivid, like a fleeting memory...
 
 ## About
 
-Vague is a carefully crafted dark theme designed for developers who appreciate subtle elegance. With its low contrast pastel palette, it reduces eye strain while maintaining excellent readability and syntax highlighting.
+Vague includes two carefully crafted variants for developers who appreciate subtle elegance:
+
+- **Vague**: dark, low-contrast pastel palette for focused work in dimmer environments
+- **Vague Light**: bright, soft light palette with the same Vague accent language
 
 ## Installation
 
@@ -47,13 +50,21 @@ git clone https://github.com/vague-theme/vague-windsurf.git
 
 1. Open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
 2. Type `Color Theme` and select **Preferences: Color Theme**
-3. Select **Vague** from the list
+3. Select **Vague** or **Vague Light** from the list
 
 Or set it directly in your settings.json:
 
 ```json
 {
   "workbench.colorTheme": "Vague"
+}
+```
+
+Or:
+
+```json
+{
+  "workbench.colorTheme": "Vague Light"
 }
 ```
 
