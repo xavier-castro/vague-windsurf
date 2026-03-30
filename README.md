@@ -1,5 +1,7 @@
 # Vague for Windsurf
 
+![Vague Theme Preview](assets/preview.png)
+
 A cool, dark, low contrast colorscheme for Windsurf. Pastel yet vivid, like a fleeting memory...
 
 ## About
