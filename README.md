@@ -16,6 +16,16 @@ Vague is a carefully crafted dark theme designed for developers who appreciate s
 4. Select the downloaded `.vsix` file
 5. The theme will be installed and ready to use
 
+### Rebuild the VSIX
+
+To publish an updated extension package from this repo:
+
+```bash
+npm run release:patch
+```
+
+This bumps the patch version in `package.json` and creates a new `.vsix` file in the project root. Then reinstall that new file from Windsurf using **Install from VSIX**.
+
 ### From Source
 
 1. Clone this repository:
@@ -72,7 +82,7 @@ Or set it directly in your settings.json:
 
 ## Screenshots
 
-*Coming soon*
+_Coming soon_
 
 ## Contributing
 
@@ -98,5 +108,3 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - [vague-yazi](https://github.com/vague-theme/vague-yazi) - Yazi file manager
 
 ---
-
-<p align="center">Made with 💜 by the Vague Theme Team</p>

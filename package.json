@@ -2,7 +2,7 @@
   "name": "vague-windsurf",
   "displayName": "Vague Theme (Windsurf)",
   "description": "A cool, dark, low contrast colorscheme for Windsurf. Pastel yet vivid, like a fleeting memory...",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "publisher": "xavier-castro",
   "author": {
     "name": "Xavier Castro",
@@ -18,6 +18,10 @@
   "homepage": "https://github.com/xavier-castro/vague-windsurf",
   "engines": {
     "vscode": "^1.74.0"
+  },
+  "scripts": {
+    "package:vsix": "npx @vscode/vsce package",
+    "release:patch": "npm version patch --no-git-tag-version && npm run package:vsix"
   },
   "categories": [
     "Themes"
